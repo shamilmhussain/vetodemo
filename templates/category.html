@@ -1,0 +1,61 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="card">
+                <div class="card-body">
+    <form method="post">{% csrf_token %}
+        <fieldset>
+            <h4 class="card-title"><label>Add Category</label></h4>
+            <input class="" type="text" name="category">
+            <button class="btn btn-primary" type="submit" name="btn-category">Submit</button>
+        </fieldset>
+    </form>
+    <form method="post">{% csrf_token %}
+        <fieldset>
+            <h4 class="card-title"><label>Add levels</label></h4>
+            <input class="" type="text" name="level">
+            <button class="btn btn-primary" type="submit" name="btn-level">Submit</button>
+        </fieldset>
+    </form>
+    <form method="post">{% csrf_token %}
+        <fieldset>
+            <h4 class="card-title"><label>Add exam</label></h4>
+            <input class="" type="text" name="exam">
+            <button class="btn btn-primary" type="submit" name="btn-exam">Submit</button>
+        </fieldset>
+    </form>
+    <form method="post">{% csrf_token %}
+        <fieldset>
+            <h4 class="card-title"><label>Add module</label></h4>
+            <input class="" type="text" name="module">
+            <button class="btn btn-primary" type="submit" name="btn-module">Submit</button>
+        </fieldset>
+    </form>
+    <form method="post">{% csrf_token %}
+        <fieldset>
+            <h4 class="card-title"><label>Add sub-module</label></h4>
+            <input class="" type="text" name="sub-module">
+            <button class="btn btn-primary" type="submit" name="btn-sub-module">Submit</button>
+        </fieldset>
+    </form>
+                     <form method="post">{% csrf_token %}
+        <fieldset>
+            <h4 class="card-title">Add Module Type</h4>
+            <input class="" type="text" name="module_type">
+            <button class="btn btn-primary" type="submit" name="btn-module_type">Submit</button>
+        </fieldset>
+    </form>
+                </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,222 @@
+{% extends "index.html" %}
+{% load staticfiles %}
+{% block content %}
+<div class="main-panel">
+        <div class="content-wrapper">
+{#            <div class="row">#}
+{#                <div class="col-lg-12">#}
+{#                    <div class="card mb-4">#}
+{#                        <div class="card-body">#}
+{##}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="main-panel">#}
+{#        <div class="content-wrapper">#}
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form method="post">{% csrf_token %}
+                                <select class="form-control" style="width: 10%; display: inline;" name="bcategory">
+                                    {% for i in category %}
+                                        <option value="{{ i.category_name }}">{{ i.category_name }}</option>
+                                    {% endfor %}
+                                </select>
+
+                                <select class="form-control" style="width: 15%; display: inline;" name="blevel">
+                                    {% for j in level %}
+                                        <option value="{{ j.level_name }}">{{ j.level_name }}</option>
+                                    {% endfor %}
+                                </select>
+
+                                <select class="form-control" style="width: 13%; display: inline;" name="bexam">
+                                    {% for i in exam %}
+                                        <option value="{{ i.exam_name }}">{{ i.exam_name }}</option>
+                                    {% endfor %}
+                                </select>
+
+                                <select class="form-control" style="width: 12%; display: inline;" name="bmodule">
+                                    {% for i in module %}
+                                        <option value="{{ i.module_name }}">{{ i.module_name }}</option>
+                                    {% endfor %}
+                                </select>
+                                <select class="form-control" style="width: 12%; display: inline;" name="bsub_module">
+                                    {% for i in sub_module %}
+                                        <option value="{{ i.sub_module_name }}">{{ i.sub_module_name }}</option>
+                                    {% endfor %}
+                                </select>
+                            <select class="form-control" style="width: 12%; display: inline;" name="bmodule_type">
+                                    {% for i in module_type %}
+                                        <option value="{{ i.module_type_name }}">{{ i.module_type_name }}</option>
+                                    {% endfor %}
+                                </select>
+                            <button type="submit" name="test" id="test" class="btn btn-primary">Test</button>
+{#                            <input type="text" name="mname" placeholder="Name">#}
+{#                            <input type="text" name="mlink" placeholder="Link">#}
+
+                            <button class="btn btn-primary" type="submit" name="btn-sel">View</button>
+                            </form>
+                        <br><br>
+                        <h6>{{ c }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ l }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ e }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ m }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ sm }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ mt }}</h6>
+                        <button style="float: right" class="btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModal2" > Add new </button>
+                            <div class="table-responsive">
+                    <table id="order-listing" class="table">
+                      <thead>
+                        <tr>
+                            <th>Sl No.</th>
+                            <th>Name</th>
+                            <th>Link</th>
+                      <tbody>
+                        {% for detail in filter_set %}
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{ detail.name }}</td>
+                            <td>{{ detail.link }}</td>
+
+{#                            <form method="post" action="/editteacher/">{% csrf_token %}#}
+                                <td><input value="{{ detail.id }}" name="tredtbtn" hidden>
+                                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-1="{{ detail.name }}" data-2="{{ detail.link }}" data-3="{{ detail.id }}">Edit</button></td></td>
+{#                            </form>#}
+
+                            <form method="post">{% csrf_token %}
+                                <td><input value="{{ detail.id }}" name="dltbtn" hidden>
+                                    <button type="submit" class="btn btn-primary">Delete</button></td>
+                                <input name="c" value="{{ c }}" hidden>
+                                <input name="l" value="{{ l }}" hidden>
+                                <input name="e" value="{{ e }}" hidden>
+                                <input name="m" value="{{ m }}" hidden>
+                                <input name="sm" value="{{ sm }}" hidden>
+                                <input name="mt" value="{{ mt }}" hidden>
+
+                            </form>
+                        </tr>
+                        {% endfor %}
+
+                    </tbody>
+                    </table>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+{#        </div>#}
+{#</div>#}
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add New</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <form method="post">{% csrf_token %}
+            <div class="modal-body">
+
+              <div class="form-group">
+                <label for="edit-name" class="col-form-label">Name :</label>
+                <input type="text" name="md_name" class="form-control" id="edit-name">
+              </div>
+              <div class="form-group">
+                <label for="edit-age" class="col-form-label">Link :</label>
+                <input type="text" name="md_link" class="form-control" id="edit-link">
+              </div>
+                <input type="number" name="md_id" id="edit-id" hidden>
+                <input type="text" value="{{ c }}" name="md_category" id="md_c" hidden>
+                <input type="text" value="{{ l }}" name="md_level" id="md_l" hidden>
+                <input type="text" value="{{ e }}" name="md_exam" id="md_e" hidden>
+                <input type="text" value="{{ m }}" name="md_module" id="md_m" hidden>
+                <input type="text" value="{{ sm }}" name="md_sub_module" id="md_sm" hidden>
+                <input type="text" value="{{ mt }}" name="md_module_type" id="md_mt" hidden>
+
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" name="btn-update" class="btn btn-primary">Update</button>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Add New</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <form method="post">{% csrf_token %}
+            <div class="modal-body">
+
+              <div class="form-group">
+                <label for="edit-name" class="col-form-label">Name :</label>
+                <input type="text" name="md_name" class="form-control" id="edit-name">
+              </div>
+              <div class="form-group">
+                <label for="edit-age" class="col-form-label">Link :</label>
+                <input type="text" name="md_link" class="form-control" id="edit-link">
+              </div>
+                <input type="number" name="md_id" id="edit-id" hidden>
+                <input type="text" value="{{ c }}" name="md_category" id="md_c" hidden>
+                <input type="text" value="{{ l }}" name="md_level" id="md_l" hidden>
+                <input type="text" value="{{ e }}" name="md_exam" id="md_e" hidden>
+                <input type="text" value="{{ m }}" name="md_module" id="md_m" hidden>
+                <input type="text" value="{{ sm }}" name="md_sub_module" id="md_sm" hidden>
+                <input type="text" value="{{ mt }}" name="md_module_type" id="md_mt" hidden>
+
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" name="btn-main" class="btn btn-primary">Add</button>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block scriptcontent %}
+<script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+<script>
+        $(document).ready(function(){
+
+                {#$('select').on('change', function() {#}
+                {#  alert( this.value );#}
+                {# }); #}
+
+                $('#exampleModal').on('show.bs.modal', function (event) {
+                  var button = $(event.relatedTarget)
+                    {#$("#btn-main").hide()#}
+                  {#var id = button.data('4')#}
+                    var name = button.data('1')
+                    var link = button.data('2')
+                    var id = button.data('3')
+
+                    var modal = $(this)
+                    modal.find('.modal-title').text('Please Edit ' + name)
+                    modal.find('.modal-body #edit-name').val(name)
+                    modal.find('.modal-body #edit-link').val(link)
+                    {#modal.find('.modal-body #edit-sem').val(sem)#}
+                    modal.find('.modal-body #edit-id').val(id)
+                })
+
+                $('#exampleModal2').on('show.bs.modal', function (event) {
+                  var button = $(event.relatedTarget)
+
+                })
+
+
+
+
+        });
+</script>
+{% endblock scriptcontent %}
