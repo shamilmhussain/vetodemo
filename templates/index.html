@@ -7,11 +7,46 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>School Admin</title>
+<style>
+
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+</style>
   <!-- plugins:css -->
+{#<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">#}
 <link href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="{% static "vendors/iconfonts/mdi/font/css/materialdesignicons.min.css" %}">
   <link rel="stylesheet" href="{% static "vendors/css/vendor.bundle.base.css"%}">
   <link rel="stylesheet" href="{% static "vendors/css/vendor.bundle.addons.css"%}">
+{#<link rel="stylesheet" href="{% static "highway/bt.css" %}">#}
+
+{#    <link rel="stylesheet" href="{% static 'highway/css/bootstrap.min.css' %}">#}
+{#    <link rel="stylesheet" href="{% static 'highway/css/bootstrap-theme.min.css' %}">#}
   <!-- endinject -->
   <!-- plugin css for this page -->
   <!-- End plugin css for this page -->
@@ -492,6 +527,7 @@
         </ul>
       </nav>
       <!-- partial -->
+
 {% endblock %}
 {% block content %}
 
@@ -519,8 +555,11 @@
 
 {% block scriptcontent %}
 
+
 {% endblock scriptcontent %}
-
-
+{##}
+{# <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>#}
+{#<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>#}
+{#<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>#}
 </body>
 </html>
