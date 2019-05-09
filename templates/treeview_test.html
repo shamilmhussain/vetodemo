@@ -1,10 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+{% load staticfiles %}
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Treetable Plugin Demo</title>
+
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'admin/jquery-treetable.css' %}">
+    <!-- <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.10/d3.min.js"></script> -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="{% static 'admin/jquery-treetable.js' %}"></script>
+	<script>
+		$(function() {
+			$("table").treetable();
+		});
+	</script>
+     <style>
+    body { background-color:#fbfbfb;}
+    </style>
 </head>
 <body>
+<div class="container" style="margin:150px auto;">
+	<h1>jQuery Treetable Plugin Demo</h1>
+	<table class="table table-bordered">
+		<thead>
+		<tr>
+			<!-- <th>#</th> -->
+			<!-- <th>First Name</th> -->
+			<!-- <th>Last Name</th> -->
+			<th style="width:400px">Graph here</th>
+			<!-- <th>Username</th> -->
+		</tr>
+		</thead>
+		<tbody>
+        {%  for i in category  %}
+		<tr>
+			<!-- <th>1</th> -->
+			<!-- <td>Mark</td> -->
+			<!-- <td>Otto</td> -->
+			<td>
+				<div class="tt" data-tt-id="{{ i.category_name }}" data-tt-parent="">{{ i.category_name }}</div>
+			</td>
+			<!-- <td>@mdo</td> -->
+		</tr>
+            {%  for j in level  %}
+                {% if i.category_name == j.category.category_name %}
+                    <tr>
+                    <td>
+                        <div class="tt" data-tt-id="{{ j.level_name }}" data-tt-parent="{{ j.category.category_name }}">{{ j.level_name }}</div>
+                    </td>
+                    </tr>
+                    {%  for k in exam  %}
+                        {% if j.level_name == k.level.level_name %}
+                            <tr>
+
+                            <td>
+                                <div class="tt" data-tt-id="{{ k.exam_name }}" data-tt-parent="{{ k.level.level_name }}">{{ k.exam_name }}</div>
+                            </td>
+                            </tr>
+                            {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+		</tbody>
+	</table>
+</div>
 
 </body>
 </html>

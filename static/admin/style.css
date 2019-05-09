@@ -1,8 +1,10 @@
-ul {
+
+
+.treeview-list ul {
     padding: 0em;
 }
 
-ul li, ul li ul li {
+.treeview-list ul li, ul li ul li {
     position:relative;
     top:0;
     bottom:0;
@@ -10,25 +12,25 @@ ul li, ul li ul li {
 
 }
 
-ul li ul {
-    margin-left: 4em;
+.treeview-list ul li ul {
+    margin-left: 7em;
 }
 
-li {
+.treeview-list li {
     list-style-type: none;
 }
 
-li a {
+.treeview-list li a {
     padding:0 0 0 10px;
     position: relative;
     top:1em;
 }
 
-li a:hover {
+.treeview-list li a:hover {
     text-decoration: none;
 }
 
-a.addBorderBefore:before {
+.treeview-list a.addBorderBefore:before {
     content: "";
     display: inline-block;
     width: 2px;
@@ -39,10 +41,10 @@ a.addBorderBefore:before {
     border-left: 1px solid gray;
 }
 
-li:before {
+.treeview-list li:before {
     content: "";
     display: inline-block;
-    width: 25px;
+    width: 24px;
     height: 0;
     position: relative;
     left: 0em;
@@ -50,7 +52,7 @@ li:before {
     border-top: 1px solid gray;
 }
 
-ul li ul li:last-child:after, ul li:last-child:after {
+.treeview-list ul li ul li:last-child:after, ul li:last-child:after {
     content: '';
     display: block;
     width: 1em;
@@ -60,3 +62,4 @@ ul li ul li:last-child:after, ul li:last-child:after {
     top: 9px;
     left: -1px;
 }
+

@@ -1,10 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'main/admin_base.html' %}
+{% load staticfiles %}
 
-</body>
-</html>
+{% block headcontent %}
+    <link rel="stylesheet" href="{% static "admin/style.css" %}">
+{#    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">#}
+{% endblock %}
+
+{% block nav %}
+        <nav class="templatemo-left-nav">
+          <ul>
+            <li><a href="/view/" ><i class="fa fa-home fa-fw"></i>Dashboard</a></li>
+            <li><a href="/manages/" class="active"><i class="fa fa-adjust fa-fw"></i>Manage Levels</a></li>
+{#            <li><a href="data-visualization.html"><i class="fa fa-database fa-fw"></i>Data Visualization</a></li>#}
+{#            <li><a href="maps.html"><i class="fa fa-map-marker fa-fw"></i>Maps</a></li>#}
+{#            <li><a href="manage-users.html"><i class="fa fa-users fa-fw"></i>Manage Users</a></li>#}
+{#            <li><a href="preferences.html"><i class="fa fa-sliders fa-fw"></i>Preferences</a></li>#}
+{#            <li><a href="login.html"><i class="fa fa-eject fa-fw"></i>Sign Out</a></li>#}
+          </ul>
+        </nav>
+          {% endblock %}
+
+{% block content %}
+    <div class="templatemo-content-widget white-bg">
+    <h2 class="templatemo-inline-block"><i class="fa fa-adjust"></i>Manage Levels</h2><hr>
+    <div id="treeview-list" class="treeview-list">
+
+        <ul>
+            {%  for i in category  %}
+            <li><a href="#">{{ i.category_name }}</a>
+                <ul>
+                    {%  for j in level  %}
+                        {% if i.category_name == j.category.category_name %}
+                    <li><a href="#">{{ j.level_name }}</a>
+                        <ul>
+                            {%  for k in exam  %}
+                                {% if j.level_name == k.level.level_name %}
+                            <li><a href="#">{{ k.exam_name }}</a>
+                                <ul>
+                                    {%  for l in module  %}
+                                {% if k.exam_name == l.exam.exam_name %}
+                                    <li><a href="#">{{ l.module_name }}</a>
+                                        <ul>
+                                        {%  for m in sub_module  %}
+                                            {% if l.module_name == m.module.module_name %}
+                                                <li><a href="/{{ i.category_name }}/{{ j.level_name }}/{{ k.exam_name }}/{{ l.module_name }}/{{ m.sub_module_name }}/Audio/">{{ m.sub_module_name }}</a>
+                                            {% endif %}
+                                        {% endfor %}
+                                        </ul>
+                                    </li>
+                                    {% endif %}
+                                {% endfor %}
+                                </ul>
+                            </li>
+
+                                {% endif %}
+                        {% endfor %}
+                        </ul>
+                    </li>
+
+{#                    <li><a href="#">Buzzcocks</a>#}
+{#                        <ul>#}
+{#                            <li><a href="#">Time's Up</a></li>#}
+{#                            <li><a href="#">Another Music in A Different Kitchen</a></li>#}
+{#                            <li><a href="#">Love Bites</a></li>#}
+{#                            <li><a href="#">A Different Kind Of Tension</a></li>#}
+{#                        </ul>#}
+{#                    </li>#}
+{#                    <li><a href="#">Joy Division</a>#}
+{#                        <ul>#}
+{#                            <li><a href="#">Unknown Pleasures</a></li>#}
+{#                            <li><a href="#">Closer</a></li>#}
+{#                            <li><a href="#">Still</a></li>#}
+{#                        </ul>#}
+{#                    </li>#}
+                        {% endif %}
+                        {% endfor %}
+                </ul>
+            </li>
+{#            <li><a href="#">Liverpool</a>#}
+{#                <ul>#}
+{#                    <li><a href="#">OMD</a>#}
+{#                        <ul>#}
+{#                            <li><a href="#">OMD</a></li>#}
+{#                            <li><a href="#">Organisation</a></li>#}
+{#                        </ul>#}
+{#                    </li>#}
+{#                    <li><a href="#">Echo & the Bunnymen</a>#}
+{#                        <ul>#}
+{#                            <li><a href="#">Crocodiles</a></li>#}
+{#                            <li><a href="#">Heaven Up Here</a></li>#}
+{#                            <li><a href="#">Porcupine</a></li>#}
+{#                        </ul>#}
+{#                    </li>#}
+{#                </ul>#}
+{#            </li>#}
+        {% endfor %}
+        </ul>
+
+    </div>
+    </div>
+{% endblock %}
+
+{% block scriptcontent %}
+    <script src="{% static "admin/jquery.js" %}"></script>
+    <script src="{% static "admin/MultiNestedList.js" %}"></script>
+{% endblock %}

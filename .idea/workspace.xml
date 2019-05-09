@@ -2,821 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a06de850-4f04-451c-9128-c51950e71093" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/css/inbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/css/ticket.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/css/todo-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/css/todo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/scripts/calendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/scripts/inbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/scripts/timeline.min.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/scripts/todo-2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/apps/scripts/todo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/css/components.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/css/plugins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/accordion-plusminus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/datatable-row-openclose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/flags/de.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/flags/es.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/flags/fr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/flags/ru.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/flags/us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/loading-spinner-grey.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/84.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/1200x900/92.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/94.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portfolio/600x600/96.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-collapse-icon-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-collapse-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-config-icon-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-config-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-expand-icon-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-expand-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-reload-icon-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-reload-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-remove-icon-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/portlet-remove-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/remove-icon-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/aboutme.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/amazon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/behance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/blogger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/deviantart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/dribbble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/dropbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/evernote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/flickr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/forrst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/foursquare.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/googleplus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/gravatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/jolicloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/klout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/last-fm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/myspace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/picasa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/pintrest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/quora.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/reddit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/rss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/skype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/spotify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/stumbleupon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/tumblr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/vimeo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/vk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/wordpress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/xing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/yahoo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/social/youtube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/syncfusion-icons-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/img/syncfusion-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/amcharts/amcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/amcharts/pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/amcharts/radar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/amcharts/serial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/amcharts/themes/chalk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/amcharts/themes/light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/amcharts/themes/patterns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/ammap/ammap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/ammap/maps/js/worldLow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/amcharts/amstockcharts/amstock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/autosize/autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/backstretch/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootbox/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-colorpicker/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-colorpicker/img/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-colorpicker/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-colorpicker/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-confirmation/bootstrap-confirmation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-contextmenu/bootstrap-contextmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-datepaginator/bootstrap-datepaginator.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-datepaginator/bootstrap-datepaginator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-editable/bootstrap-editable/css/bootstrap-editable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-editable/bootstrap-editable/img/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-editable/bootstrap-editable/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-editable/bootstrap-editable/js/bootstrap-editable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-editable/inputs-ext/address/address.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-editable/inputs-ext/address/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-editable/inputs-ext/wysihtml5/wysihtml5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-growl/jquery.bootstrap-growl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-markdown/lib/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-multiselect/css/bootstrap-multiselect.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-multiselect/js/bootstrap-multiselect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-pwstrength/pwstrength-bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-select/css/bootstrap-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-select/js/bootstrap-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-selectsplitter/bootstrap-selectsplitter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-sessiontimeout/bootstrap-session-timeout.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-summernote/font/summernoted41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-summernote/font/summernotef534.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-summernote/font/summernotef534.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-summernote/font/summernotef534.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-summernote/summernote.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-summernote/summernote.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-sweetalert/sweetalert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-sweetalert/sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-toastr/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-toastr/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-typeahead/bootstrap3-typeahead.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap/fonts/bootstrap/glyphicons-halflings-regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/clipboardjs/clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/clockface/css/clockface.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/clockface/js/clockface.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/lib/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/lib/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/mode/css/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/theme/ambiance.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/theme/material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/theme/neat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/codemirror/theme/neo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/countdown/jquery.countdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/counterup/jquery.counterup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/counterup/jquery.waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/ajax-juicy-projects/project1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/ajax-juicy-projects/project3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/ajax-juicy-projects/project4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/loadMore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/loadMore2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/loadMore3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/loadMore4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/project1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/project2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/project3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/ajax/project4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/08.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/09.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/20.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/24.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/25.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/27.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/52.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/59.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/62.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/63.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/77.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/82.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/83.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/1200x900/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/015.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/27.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/33.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/34.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/35.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/36.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/37.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/38.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/39.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/40.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/41.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/42.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/43.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/44.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/45.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/46.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/47.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/48.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/49.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/50.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/51.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/55.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/57.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/60.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/64.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/65.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/94.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/img/portfolio/600x600/98.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/css/cubeportfolio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/img/cbp-sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_asc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_asc_disabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_both.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_desc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_desc_disabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/datatables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/dropzone/basic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/dropzone/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/dropzone/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fancybox/source/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fancybox/source/fancybox_loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fancybox/source/fancybox_loading@2x.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fancybox/source/fancybox_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fancybox/source/fancybox_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fancybox/source/fancybox_sprite@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fancybox/source/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fancybox/source/jquery.fancybox.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/flot/jquery.flot.axislabels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/flot/jquery.flot.categories.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/flot/jquery.flot.crosshair.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/flot/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/flot/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/flot/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/flot/jquery.flot.stack.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/flowchart/flowchart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/font-awesome/fonts/fontawesome-webfont93e3.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/font-awesome/fonts/fontawesome-webfont93e3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/font-awesome/fonts/fontawesome-webfont93e3.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/font-awesome/fonts/fontawesome-webfont93e3.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/font-awesome/fonts/fontawesome-webfont93e3.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fuelux/js/spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fullcalendar/fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/gmaps/gmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/highcharts/js/highcharts-3d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/highcharts/js/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/highcharts/js/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/highmaps/js/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/highmaps/js/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/highstock/js/highstock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/holder.js/100%x180.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/holder.js/100%x200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/holder.js/64x64.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/horizontal-timeline/horizontal-timeline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/icheck/skins/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/ion.rangeslider/css/ion.rangeSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/ion.rangeslider/css/ion.rangeSlider.skinFlat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/ion.rangeslider/img/sprite-skin-flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/ion.rangeslider/js/ion.rangeSlider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/css/Jcrop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/css/jquery.Jcrop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/demos/demo_files/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/demos/demo_files/image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/demos/demo_files/image4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/demos/demo_files/image5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/js/jquery.Jcrop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jcrop/js/jquery.color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-bootpag/jquery.bootpag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-cookiebar/jquery.cookieBar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/blueimp-gallery/blueimp-gallery.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/blueimp-gallery/jquery.blueimp-gallery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/css/jquery.fileupload-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/css/jquery.fileupload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/img/error-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/img/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/img/play-pause-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/img/play-pause.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/img/progressbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/img/video-play-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/img/video-play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-audio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/jquery.fileupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/jquery.iframe-transport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/vendor/canvas-to-blob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/vendor/jquery.ui.widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/vendor/load-image.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-file-upload/js/vendor/tmpl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-idle-timeout/jquery.idletimeout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-idle-timeout/jquery.idletimer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-knob/js/jquery.knob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-minicolors/jquery.minicolors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-minicolors/jquery.minicolors.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-minicolors/jquery.minicolors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-multi-select/css/multi-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-multi-select/img/switch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-nestable/jquery.nestable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-nestable/jquery.nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-notific8/jquery.notific8.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-notific8/jquery.notific8.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-repeater/jquery.repeater.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-validation/js/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery-validation/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery.blockui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery.input-ip-address-control-1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery.mockjax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery.pulsate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jqvmap/jqvmap/jqvmap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/js.cookie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jstree/dist/jstree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/jstree/dist/themes/default/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/ladda/ladda-themeless.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/ladda/ladda.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/ladda/spin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/morris/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/morris/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/morris/raphael-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/nouislider/nouislider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/nouislider/nouislider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/nouislider/nouislider.pips.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/nouislider/wNumb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/pace/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/pace/themes/pace-theme-big-counter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/pace/themes/pace-theme-flash.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/plupload/js/plupload.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/raphael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/select2/css/select2-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/select2/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/select2/js/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Iconsd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/socicon/font/socicon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/socicon/font/socicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/socicon/font/socicon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/socicon/font/socicon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/socicon/font/socicon.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/socicon/font/socicond41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/socicon/socicon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/typeahead/handlebars.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/typeahead/typeahead.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/plugins/typeahead/typeahead.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/scripts/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/global/scripts/datatable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/global/scripts/cookie-consent.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/global/scripts/quick-nav.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/global/scripts/quick-sidebar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/css/custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/css/layout.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/css/themes/darkblue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar3_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/avatar9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/icon-color-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/icon-color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/scripts/demo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout/scripts/layout.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout3/img/avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout3/img/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/layouts/layout3/img/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/about.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/blog.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/coming-soon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/contact.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/error.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/faq.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/image-crop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/invoice-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/invoice.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/lock-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/lock.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/login-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/login-3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/login-4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/login-5.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/login.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/portfolio.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/pricing.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/profile-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/profile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/css/search.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/avatars/team8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/background/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/bg-white-lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/bg-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/login/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/login/login-invert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/logo-big-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/logo-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/logos/logo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/img/page_general_search/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/bg/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/blog/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/blog/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/blog/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/gallery/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/gallery/image4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/invoice/walmart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/pages/earth.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/profile/people19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/profile/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/profile/photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/profile/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/profile/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/profile/profile_user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar80_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar80_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar80_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar80_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar80_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar80_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar80_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/avatar9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/teambg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/teambg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/teambg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/users/teambg8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/works/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/works/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/works/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/media/works/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-amcharts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-flotcharts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-flowchart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-google.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-highcharts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-highmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-highstock.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/charts-morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/coming-soon.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-bootstrap-maxlength.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-bootstrap-multiselect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-bootstrap-select-splitter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-bootstrap-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-bootstrap-switch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-bootstrap-tagsinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-bootstrap-touchspin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-code-editors.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-color-pickers.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-context-menu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-date-time-pickers.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-editors.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-form-tools.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-ion-sliders.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-knob-dials.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-multi-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-nouisliders.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/components-typeahead.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/contact.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/dashboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ecommerce-dashboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ecommerce-orders-view.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ecommerce-orders.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ecommerce-products-edit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ecommerce-products.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-fileupload.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-image-crop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-input-mask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-repeater.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-samples.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-validation-md.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-validation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/form-wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/lock-2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/lock.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/login-4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/login-5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/login.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/maps-google.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/maps-vector.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/portfolio-1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/portfolio-2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/portfolio-3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/portfolio-4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/portlet-ajax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/portlet-draggable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/profile.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/search.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-ajax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-buttons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-colreorder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-fixedheader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-managed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-rowreorder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/table-datatables-scroller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/timeline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-alerts-api.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-blockui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-bootstrap-growl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-buttons-spinners.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-confirmations.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-datepaginator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-extended-modals.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-general.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-idletimeout.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-modals.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-notific8.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-session-timeout.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/assets/pages/scripts/ui-tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/highway/bt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/Job_Category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/country.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/districts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/employee_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/employer_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/employer_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/filter_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/form_controls_md.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/job_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/manage_employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/manage_employer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/states.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin panel/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/MultiNestedList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/css/templatemo-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/fa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/images/bicycle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/images/checkbox-radio-sheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/images/person.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/images/profile-photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/images/sunset-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/images/sunset.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/js/bootstrap-filestyle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/js/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/templatemo/js/templatemo-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/admin_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/tableview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/treeview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/video.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vetodemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vetodemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/addpopular.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addpopular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin panel/manage_employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin panel/manage_employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/treeview_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/treeview_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vetodemo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vetodemo/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vetopsc/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vetopsc/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vetopsc/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vetopsc/views.py" afterDir="false" />
     </list>
@@ -846,22 +60,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vetodemo/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="193" column="45" selection-start-line="193" selection-start-column="45" selection-end-line="193" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vetopsc/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+            <state relative-caret-position="1050">
+              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -870,66 +72,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vetopsc/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vetopsc/urls.py">
+        <entry file="file://$PROJECT_DIR$/vetodemo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="345">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#632#664#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-729">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin panel/manage_employer.html">
+        <entry file="file://$PROJECT_DIR$/vetopsc/admin.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/admin/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/treeview_test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="56" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/main/treeview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-570">
+              <caret line="16" column="102" lean-forward="true" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/admin panel/manage_employee.html">
+        <entry file="file://$PROJECT_DIR$/templates/main/tableview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7929">
-              <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+            <state relative-caret-position="150">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/test.html">
+        <entry file="file://$PROJECT_DIR$/static/admin/MultiNestedList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2895">
-              <caret line="193" column="25" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#i#1;n#a#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin panel/country.html">
+        <entry file="file://$PROJECT_DIR$/templates/main/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495" />
+            <state relative-caret-position="210">
+              <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin panel/dashboard.html">
+        <entry file="file://$PROJECT_DIR$/templates/main/admin_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11694">
-              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+            <state relative-caret-position="1185">
+              <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -940,9 +163,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -966,7 +189,6 @@
         <option value="$PROJECT_DIR$/static/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/templates/view_or_edit.html" />
         <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/vetodemo/models.py" />
         <option value="$PROJECT_DIR$/vetodemo/urls.py" />
         <option value="$PROJECT_DIR$/vetodemo/views.py" />
         <option value="$PROJECT_DIR$/templates/main/home2.html" />
@@ -975,17 +197,31 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/addpopular.html" />
         <option value="$PROJECT_DIR$/templates/admin panel/dashboard.html" />
-        <option value="$PROJECT_DIR$/vetopsc/views.py" />
-        <option value="$PROJECT_DIR$/vetopsc/urls.py" />
+        <option value="$PROJECT_DIR$/templates/treeview_test.html" />
         <option value="$PROJECT_DIR$/templates/admin panel/manage_employee.html" />
+        <option value="$PROJECT_DIR$/static/templatemo/fonts.css" />
+        <option value="$PROJECT_DIR$/static/templatemo/fa.css" />
+        <option value="$PROJECT_DIR$/static/admin/jquery.js" />
+        <option value="$PROJECT_DIR$/static/admin/assets/global/plugins/jstree/dist/jstree.min.js" />
+        <option value="$PROJECT_DIR$/static/admin/style.css" />
+        <option value="$PROJECT_DIR$/templates/main/sidebar.html" />
+        <option value="$PROJECT_DIR$/vetodemo/models.py" />
+        <option value="$PROJECT_DIR$/vetopsc/urls.py" />
+        <option value="$PROJECT_DIR$/templates/main/video.html" />
+        <option value="$PROJECT_DIR$/templates/main/treeview.html" />
+        <option value="$PROJECT_DIR$/templates/main/audio.html" />
+        <option value="$PROJECT_DIR$/vetopsc/views.py" />
+        <option value="$PROJECT_DIR$/templates/main/admin_base.html" />
+        <option value="$PROJECT_DIR$/static/admin/MultiNestedList.js" />
+        <option value="$PROJECT_DIR$/templates/main/tableview.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="1299" />
-    <option name="height" value="741" />
+    <option name="width" value="1161" />
+    <option name="height" value="652" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1003,13 +239,29 @@
             <path>
               <item name="vetodemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vetodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vetodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vetodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vetodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vetodemo" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vetodemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vetodemo" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin panel" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vetodemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vetodemo" type="462c0819:PsiDirectoryNode" />
+              <item name="vetodemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vetodemo" type="b2602c69:ProjectViewProjectNode" />
@@ -1026,18 +278,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/highway" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/admin" />
+      <recent name="$PROJECT_DIR$/static/templatemo" />
       <recent name="$PROJECT_DIR$/templates/admin panel" />
       <recent name="$PROJECT_DIR$/static/highway" />
       <recent name="$PROJECT_DIR$/templates/main" />
-      <recent name="$PROJECT_DIR$/vetopsc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/highway" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1097,18 +350,45 @@
       <workItem from="1556604223038" duration="2399000" />
       <workItem from="1556607438526" duration="7750000" />
       <workItem from="1556683928059" duration="4473000" />
-      <workItem from="1556860032924" duration="9758000" />
+      <workItem from="1556860032924" duration="12909000" />
+      <workItem from="1557145073647" duration="4992000" />
+      <workItem from="1557206752338" duration="7094000" />
+      <workItem from="1557289663322" duration="16163000" />
+      <workItem from="1557377690112" duration="1293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61154000" />
+    <option name="totallyTimeSpent" value="93847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1299" height="741" extended-state="7" />
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15642458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1660016" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3305785" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32801276" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15881884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1129,15 +409,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32881084" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/vertical-layout-light/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1172,16 +449,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vetopsc/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vetodemo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="64" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1239,26 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/view_or_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vetodemo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin panel/head.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/assets/apps/css/todo.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1269,65 +516,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin panel/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/templates/admin panel/manage_employer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11694">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin panel/country.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vetodemo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="193" column="45" selection-start-line="193" selection-start-column="45" selection-end-line="193" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#76#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vetopsc/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vetopsc/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
+        <state relative-caret-position="555">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin panel/manage_employer.html">
+    <entry file="file://$PROJECT_DIR$/static/admin/jquery-treetable.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vetopsc/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/admin panel/country.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin panel/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="825">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templatemo/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templatemo/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3360">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templatemo/fa.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin panel/manage_employee.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7929">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        <state relative-caret-position="4965">
+          <caret line="331" column="59" selection-start-line="331" selection-start-column="59" selection-end-line="331" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin panel/head.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/assets/global/plugins/jstree/dist/jstree.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31848" selection-start-line="2" selection-start-column="31848" selection-end-line="2" selection-end-column="31848" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/vertical-layout-light/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/view_or_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetopsc/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetodemo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetodemo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetopsc/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="127" selection-start-line="13" selection-start-column="127" selection-end-line="13" selection-end-column="127" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetopsc/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetodemo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetopsc/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/treeview_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="56" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/admin_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/treeview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="16" column="102" lean-forward="true" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/MultiNestedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#i#1;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/tableview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
         </state>
       </provider>
     </entry>
